@@ -11,4 +11,5 @@
   * [创建账户](ye-mian-pai-cha-lie-biao/chuang-jian-zhang-hu.md)
   * [首页看板](ye-mian-pai-cha-lie-biao/shou-ye-kan-ban.md)
   * [搜索订单历史](ye-mian-pai-cha-lie-biao/sou-suo-ding-dan-li-shi.md)
+  * [报表模板管理](ye-mian-pai-cha-lie-biao/bao-biao-mo-ban-guan-li.md)
 
