@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Order Visibility Portal
 
-You can use the [editor on GitHub](https://github.com/ranbeioc/OVP_UI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Version 1.0
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Update 2017-11-01 11:38:02
 
-### Markdown
+我们将逐一页面排查列出问题详情和建议的解决方案，你可以随时联系反馈实时问题和意见
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+本文档的离线版本下载地址为：
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+网盘：
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ranbeioc/OVP_UI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+本项目的最新DEMO下载地址为：
 
-### Support or Contact
+```
+网盘：
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
