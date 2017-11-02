@@ -17,4 +17,5 @@
   * [复制报表](ye-mian-pai-cha-lie-biao/fu-zhi-bao-biao.md)
   * [用户引导](ye-mian-pai-cha-lie-biao/yong-hu-yin-dao.md)
   * [准入审批](ye-mian-pai-cha-lie-biao/zhun-ru-shen-pi.md)
+  * [编辑审批](ye-mian-pai-cha-lie-biao/bian-ji-shen-pi.md)
 

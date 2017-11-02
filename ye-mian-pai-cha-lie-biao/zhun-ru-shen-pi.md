@@ -1,4 +1,4 @@
-# 准入审批页
+# 准入审批页（其它页有同类问题）
 
 在线地址：[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex)
 
