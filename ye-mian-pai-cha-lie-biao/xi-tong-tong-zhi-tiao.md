@@ -2,8 +2,6 @@
 
 在线地址：系统内均有
 
-
-
 ### 消息标题黄色标头被文本覆盖问题：
 
 ```
@@ -11,12 +9,12 @@
 
 例如：addOutageMessage 依赖 jquery
 function addOutageMessage(data){
-	var len = $("#outage li").length;
-	$("#outage").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
-	addMsg("outage-li",data);
-	$("#outageBdy").show();
-	updateCount("outage-count");
-	updateCount("total-count");
+    var len = $("#outage li").length;
+    $("#outage").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
+    addMsg("outage-li",data);
+    $("#outageBdy").show();
+    updateCount("outage-count");
+    updateCount("total-count");
 }
 建议将以下区域代码移植到页面底部
 <script type="text/javascript" src="http://cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
@@ -24,14 +22,14 @@ function addOutageMessage(data){
 /******************************************* */
 /**
  * LOCALHOST:
-	 DOAMIN:localhost:8080
+     DOAMIN:localhost:8080
  * SIT:
- * 	 DOMAIN:    
+ *      DOMAIN:    
  * UAT:
  *   DOMAIN:tst01-ovp-portal-new.earth.xpaas.lenovo.com
  *
  * DEMO SHOW
- * 	DOMAIN:ovp-portal-demoshow.earth.xpaas.lenovo.com
+ *     DOMAIN:ovp-portal-demoshow.earth.xpaas.lenovo.com
  */
 
 /*********************************************/
@@ -41,15 +39,15 @@ var domain = "tst01-ovp-portal-new.earth.xpaas.lenovo.com";
 //var domain = "ovp-portal-demoshow.earth.xpaas.lenovo.com";
 var context = "/lenovo-ovp";
 if(websocket){
-	
+
 }else{
-	if ('WebSocket' in window) {
-		websocket = new WebSocket("ws://"+domain+"/lenovo-ovp/portal/websocket");
-	} else if ('MozWebSocket' in window) {
-		websocket = new MozWebSocket("ws://"+domain+"/lenovo-ovp/portal/websocket");
-	} else {
-		websocket = new SockJS("http://"+domain+"/lenovo-ovp/portal/websocket/sockjs");
-	}
+    if ('WebSocket' in window) {
+        websocket = new WebSocket("ws://"+domain+"/lenovo-ovp/portal/websocket");
+    } else if ('MozWebSocket' in window) {
+        websocket = new MozWebSocket("ws://"+domain+"/lenovo-ovp/portal/websocket");
+    } else {
+        websocket = new SockJS("http://"+domain+"/lenovo-ovp/portal/websocket/sockjs");
+    }
 }
 
 
@@ -57,87 +55,87 @@ if(websocket){
  * callback for connection open
  */
 websocket.onopen = function() {
-	 //websocket.send("2||Webscoket Opened Success");
+     //websocket.send("2||Webscoket Opened Success");
 };
 
 /**
  * callback for message arrive
  */
 websocket.onmessage = function(e) {
-	if((typeof(e) != "undefined") && e && e.data){
-		if(e.data.indexOf("||") > 0){
-			var messs = e.data.split("||");
-			var type = messs[0];
-			if(type=="1"){
-				addOutageMessage(messs[1]);
-			}else{
-				addOtherMessage(messs[1]);
-			}
-		}else{
-			addMessage("2||"+e.data);
-		}
-	}
+    if((typeof(e) != "undefined") && e && e.data){
+        if(e.data.indexOf("||") > 0){
+            var messs = e.data.split("||");
+            var type = messs[0];
+            if(type=="1"){
+                addOutageMessage(messs[1]);
+            }else{
+                addOtherMessage(messs[1]);
+            }
+        }else{
+            addMessage("2||"+e.data);
+        }
+    }
 };
 
 /**
  * callback for connection colsed
  */
 websocket.onclose = function() {
-	//console.log('close');
+    //console.log('close');
 };
 /**
  * callback for connection errored
  */
 websocket.onerror = function() {
-	//addOtherMessage("Websocket Connection error");
+    //addOtherMessage("Websocket Connection error");
 };
 
 function webscoketTest() {
-	websocket.send("2||test");
-	return false;
+    websocket.send("2||test");
+    return false;
 }
 
 function addMessage(data){
-	var len = $("#message-top li").length;
-	$("#message-top").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
-	$("#abc").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
+    var len = $("#message-top li").length;
+    $("#message-top").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
+    $("#abc").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
 }
 
 function addOutageMessage(data){
-	var len = $("#outage li").length;
-	$("#outage").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
-	addMsg("outage-li",data);
-	$("#outageBdy").show();
-	updateCount("outage-count");
-	updateCount("total-count");
+    var len = $("#outage li").length;
+    $("#outage").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
+    addMsg("outage-li",data);
+    $("#outageBdy").show();
+    updateCount("outage-count");
+    updateCount("total-count");
 }
 function addOtherMessage(data){
-	var len = $("#otherNotice li").length;
-	$("#otherNotice").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
-	addMsg("other-li",data);
-	$("#oNoticesBdy").show();
-	updateCount("other-count");
-	updateCount("total-count");
+    var len = $("#otherNotice li").length;
+    $("#otherNotice").prepend('<li style="display: block;"><a href="#"> '+(len+1)+','+data+'</a></li>');
+    addMsg("other-li",data);
+    $("#oNoticesBdy").show();
+    updateCount("other-count");
+    updateCount("total-count");
 }
 function updateCount(id){
-	var outageCount = $("#"+id).text();
-	if(outageCount){
-		outageCount = outageCount.trim();
-		$("#"+id).text(parseInt(outageCount)+1);
-	}
+    var outageCount = $("#"+id).text();
+    if(outageCount){
+        outageCount = outageCount.trim();
+        $("#"+id).text(parseInt(outageCount)+1);
+    }
 }
 
 function addMsg(id,msg){
-	var html = "<a href=\"javascript:void(0);\" onclick=\"alertDetail('"+msg+"');\" data-toggle=\"modal\" data-target=\"#modal-alert-detail\">";
-		html += "<i class=\"fa fa-users text-aqua\"></i>";
-		html += msg;
-		html += "</a>";
-	/**$("#"+id).append(html);*/
+    var html = "<a href=\"javascript:void(0);\" onclick=\"alertDetail('"+msg+"');\" data-toggle=\"modal\" data-target=\"#modal-alert-detail\">";
+        html += "<i class=\"fa fa-users text-aqua\"></i>";
+        html += msg;
+        html += "</a>";
+    /**$("#"+id).append(html);*/
 }
 
 function alertDetail(body){
-	$("#alertbody").html(body);
-	$("#modal-alert-detail").show();
+    $("#alertbody").html(body);
+    $("#modal-alert-detail").show();
 }
 
 
@@ -145,8 +143,6 @@ function alertDetail(body){
 
 /** ***************************************** */
 </script>
-
-
 ```
 
 ### 标准样例截图：![](/assets/Snip20171101_15.png)
@@ -205,5 +201,5 @@ function setTltBtm(){
   };
 ```
 
-编辑于 2017-11-02 15:20:56
+编辑于 2017-11-02 15:43:52
 
