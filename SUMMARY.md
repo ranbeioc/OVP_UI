@@ -16,4 +16,5 @@
   * [报表模板管理](ye-mian-pai-cha-lie-biao/bao-biao-mo-ban-guan-li.md)
   * [复制报表](ye-mian-pai-cha-lie-biao/fu-zhi-bao-biao.md)
   * [用户引导](ye-mian-pai-cha-lie-biao/yong-hu-yin-dao.md)
+  * [准入审批](ye-mian-pai-cha-lie-biao/zhun-ru-shen-pi.md)
 
