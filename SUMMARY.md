@@ -14,4 +14,5 @@
   * [搜索订单历史](ye-mian-pai-cha-lie-biao/sou-suo-ding-dan-li-shi.md)
   * [发票下载](ye-mian-pai-cha-lie-biao/fa-piao-xia-zai.md)
   * [报表模板管理](ye-mian-pai-cha-lie-biao/bao-biao-mo-ban-guan-li.md)
+  * [用户引导](ye-mian-pai-cha-lie-biao/yong-hu-yin-dao.md)
 
