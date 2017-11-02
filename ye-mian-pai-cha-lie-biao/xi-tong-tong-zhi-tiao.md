@@ -22,28 +22,42 @@
 
 2，修改页尾脚本配置如下：注意修改过长的标题
   $('#breakingnews1').BreakingNews({
-  		title: 'Notices',
-  		titlebgcolor: '#f39c12',
-  		linkhovercolor: '#099',
-  		border: '1px solid #099',
-  		timer: 4000,
-  		effect: 'slide'
-  	});
+          title: 'Notices',
+          titlebgcolor: '#f39c12',
+          linkhovercolor: '#099',
+          border: '1px solid #099',
+          timer: 4000,
+          effect: 'slide'
+      });
 
     $('#breakingnews2').BreakingNews({
-    		title: '!',
+            title: '!',
               fonttextsize: "14px",
-    		titlebgcolor: '#f39c12',
-    		linkhovercolor: '#099',
-    		border: '1px solid #099',
-    		timer: 4000,
-    		effect: 'slide'
-    	});
+            titlebgcolor: '#f39c12',
+            linkhovercolor: '#099',
+            border: '1px solid #099',
+            timer: 4000,
+            effect: 'slide'
+        });
 
 3，更新全局样式文件 ovp.css 参见第1.4节描述；
 
 4，更新全局脚本文件 ovp.js 参见第1.4节描述；
+function setTltBtm(){
+    $('.cdfbtm').width( $('.main-footer .container').width() - 50);
+    //$('.temp2f .fedsdrop').height($('.temp1').height());
+    //$('.tempm').height($('.temp1').height()-200);
+    $('.calloutfixed').width( $('.main-footer .container').width());
+    //$('.calloutfixedtop').width( $('.main-footer .container').width() - 450);
+
+    $('.calloutfixedtop').css({
+      "width": $('body').width() - ($('#opv-tlt').width() + 80 +  $('.navbar-custom-menu').width()),
+      "left": $('#opv-tlt').width() + 80
+    })
+
+  };
+
 ```
 
-编辑于 2017-11-01 21:30:43
+编辑于 2017-11-02 15:20:56
 
