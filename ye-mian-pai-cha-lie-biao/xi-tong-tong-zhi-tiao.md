@@ -174,7 +174,7 @@ function alertDetail(body){
       });
 
     $('#breakingnews2').BreakingNews({
-            title: '!',
+      		title: '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>',
               fonttextsize: "14px",
             titlebgcolor: '#f39c12',
             linkhovercolor: '#099',
