@@ -4,13 +4,13 @@
 
 [http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList)
 
-http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/role/roleIndex
+[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/role/roleIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/role/roleIndex)
 
-http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userbatchchIndex
+[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userbatchchIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userbatchchIndex)
 
-http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userIndex
+[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userIndex)
 
-http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex
+[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex)
 
 ### 页面问题截图：
 
@@ -19,7 +19,7 @@ http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditInd
 ### 页面问题描述：
 
 ```
-1，修改按钮的样式应用类如下：
+1，修改按钮的样式应用类如下：注意图标正确的部分不要改
 <div class="btn-group" style="width:100px;">
     <a class="btn btn-default btn-sm view" href="#" title="View"><i class="fa fa-eyes">&nbsp;</i></a>
     <a class="btn btn-default btn-sm edit" href="#" title="Edit"><i class="fa fa-edit">&nbsp;</i></a>
