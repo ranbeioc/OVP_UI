@@ -20,7 +20,6 @@ $('#table').bootstrapTable('destroy').bootstrapTable({
     fixedColumns: true,
     fixedNumber: 3
 });
-
 ```
 
 在线样例地址

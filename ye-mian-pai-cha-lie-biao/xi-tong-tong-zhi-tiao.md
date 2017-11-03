@@ -160,25 +160,44 @@ function alertDetail(body){
       <li><a href="#" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="System Notices" data-content="3, St Louis police killing: Fresh protest breaks out in city">3, St Louis police killing Fresh protest...</a></li>
     </ul>
     <div class="bn-arrows"><span class="bn-arrows-left"></span><span class="bn-arrows-right"></span></div>
+     <button type="button" class="close NTClose1" aria-label="Close" style="line-height:0.7;"><span aria-hidden="true">&times;</span></button>
+
   </div>
 </div>
+
+1，修改底部通知条DOM结构：需要过滤消息标题长度，并配置提示参数
+<div class=" calloutfixed noticesBdy" >
+    <div class="BreakingNewsController easing" id="breakingnews1">
+     <div class="bn-title"></div>
+     <ul id="abc">
+       <li><a href="#">1, System data will be updated 24 hours later during system maintenance.</a></li>
+       <li><a href="#">2, Guterres: 'Pressure needed to stop Myanmar carnage'</a></li>
+       <li><a href="#">3, St Louis police killing: Fresh protest breaks out in city</a></li>
+     </ul>
+     <div class="bn-arrows"><span class="bn-arrows-left"></span><span class="bn-arrows-right"></span></div>
+     <button type="button" class="close NTClose2" aria-label="Close" style="line-height:0.7;"><span aria-hidden="true">&times;</span></button>
+   </div>
+</div>
+
+
+
 
 2，修改页尾脚本配置如下：注意修改过长的标题
   $('#breakingnews1').BreakingNews({
           title: 'Notices',
           titlebgcolor: '#f39c12',
           linkhovercolor: '#099',
-          border: '1px solid #099',
+          border: '1px solid #ccc',
           timer: 4000,
           effect: 'slide'
       });
 
     $('#breakingnews2').BreakingNews({
               title: '<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>',
-              fonttextsize: "14px",
+              //fonttextsize: "14px",
             titlebgcolor: '#f39c12',
             linkhovercolor: '#099',
-            border: '1px solid #099',
+            border: '1px solid #ccc',
             timer: 4000,
             effect: 'slide'
         });
