@@ -1,4 +1,4 @@
-# 报表模板管理
+# 报表模板管理（其它页有同类问题）
 
 在线地址：[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList)
 
@@ -15,10 +15,7 @@
     <a class="btn btn-default btn-sm edit" href="#" title="Edit"><i class="fa fa-edit">&nbsp;</i></a>
     <a class="btn btn-default btn-sm copy" href="#" title="Copy"><i class="fa fa-files-o">&nbsp;</i></a>
 </div>
-
 ```
 
 编辑于 2017-11-01 20:04:21
-
-
 
