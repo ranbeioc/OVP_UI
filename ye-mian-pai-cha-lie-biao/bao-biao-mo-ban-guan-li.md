@@ -1,6 +1,16 @@
 # 报表模板管理（其它页有同类问题）
 
-在线地址：[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList)
+在线地址：
+
+[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/report/template/queryTemplateList)
+
+http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/role/roleIndex
+
+http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userbatchchIndex
+
+http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userIndex
+
+http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex
 
 ### 页面问题截图：
 

@@ -1,6 +1,10 @@
 # 准入审批页（其它页有同类问题）
 
-在线地址：[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex)
+在线地址：
+
+[http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex](http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/user/userAduditIndex)
+
+http://tst01-ovp-portal-new.earth.xpaas.lenovo.com/lenovo-ovp/role/roleIndex
 
 ### 页面问题截图：![](/assets/Snip20171102_22.png)
 
