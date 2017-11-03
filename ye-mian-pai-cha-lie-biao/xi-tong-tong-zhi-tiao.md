@@ -185,7 +185,7 @@ function alertDetail(body){
 .BreakingNewsController ul li a{ text-align: center; width:100%;text-decoration:none; color:#333; display:inline-block; overflow:hidden; padding:0; font-family: sans-serif,'Helvetica Neue',Helvetica; font-weight: 500; font-style: italic; font-size: 14px;}
 
 
-2，修改页尾脚本配置如下：注意修改过长的标题
+3，修改页尾脚本配置如下：注意修改过长的标题
   $('#breakingnews1').BreakingNews({
           title: 'Notices',
           titlebgcolor: '#f39c12',
@@ -204,10 +204,19 @@ function alertDetail(body){
             timer: 4000,
             effect: 'slide'
         });
+  
+  修改消息关闭按钮事件：
 
-3，更新全局样式文件 ovp.css 参见第1.4节描述；
+    $("#outage-header, .NTClose1").click(function() {
+        $("#outageBdy").toggle();
+    });
+    $("#other-header, .NTClose2").click(function() {
+        $("#oNoticesBdy").toggle();
+        $('#otherNotice').css('left', $('#breakingnews1 .bn-title').outerWidth());
+    });
 
-4，更新全局脚本文件 ovp.js 参见第1.4节描述；
+
+4，更新脚本文件 ovp.js 参见第1.4节描述；
 function setTltBtm(){
     $('.cdfbtm').width( $('.main-footer .container').width() - 50);
     //$('.temp2f .fedsdrop').height($('.temp1').height());
