@@ -204,7 +204,7 @@ function alertDetail(body){
             timer: 4000,
             effect: 'slide'
         });
-  
+
   修改消息关闭按钮事件：
 
     $("#outage-header, .NTClose1").click(function() {
@@ -232,5 +232,5 @@ function setTltBtm(){
   };
 ```
 
-编辑于 2017-11-02 15:43:52
+编辑于 2017-11-03 15:15:20
 
