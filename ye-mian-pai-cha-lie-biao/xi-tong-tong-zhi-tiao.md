@@ -145,7 +145,7 @@ function alertDetail(body){
 </script>
 ```
 
-### 标准样例截图：![](/assets/Snip20171101_15.png)
+### 标准样例截图：![](/assets/Snip20171103_26.png)
 
 ### 页面修改描述：
 
@@ -181,6 +181,13 @@ function alertDetail(body){
 
 
 2，修改添加OPV.CSS样式文件：
+.calloutfixedtop{
+  position: absolute;
+  top: 3px;
+  left:350px;
+  min-width: 450px;
+  z-index: 99999;
+}
 .calloutfixed{box-shadow: 0 2px 2px 0 rgba(153,153,153,.8);}
 .BreakingNewsController ul li a{ text-align: center; width:100%;text-decoration:none; color:#333; display:inline-block; overflow:hidden; padding:0; font-family: sans-serif,'Helvetica Neue',Helvetica; font-weight: 500; font-style: italic; font-size: 14px;}
 
