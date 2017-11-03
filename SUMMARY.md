@@ -18,4 +18,5 @@
   * [用户引导](ye-mian-pai-cha-lie-biao/yong-hu-yin-dao.md)
   * [准入审批](ye-mian-pai-cha-lie-biao/zhun-ru-shen-pi.md)
   * [编辑审批](ye-mian-pai-cha-lie-biao/bian-ji-shen-pi.md)
+* [通用问题说明](tong-yong-wen-ti-shuo-ming.md)
 
