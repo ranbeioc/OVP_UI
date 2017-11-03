@@ -180,6 +180,9 @@ function alertDetail(body){
 </div>
 
 
+2，修改添加OPV.CSS样式文件：
+.calloutfixed{box-shadow: 0 2px 2px 0 rgba(153,153,153,.8);}
+.BreakingNewsController ul li a{ text-align: center; width:100%;text-decoration:none; color:#333; display:inline-block; overflow:hidden; padding:0; font-family: sans-serif,'Helvetica Neue',Helvetica; font-weight: 500; font-style: italic; font-size: 14px;}
 
 
 2，修改页尾脚本配置如下：注意修改过长的标题
@@ -213,8 +216,8 @@ function setTltBtm(){
     //$('.calloutfixedtop').width( $('.main-footer .container').width() - 450);
 
     $('.calloutfixedtop').css({
-      "width": $('body').width() - ($('#opv-tlt').width() + 80 +  $('.navbar-custom-menu').width()),
-      "left": $('#opv-tlt').width() + 80
+      "width": $('body').width() - ($('#opv-tlt').width() + 120 +  $('.navbar-custom-menu').width()),
+      "left": $('#opv-tlt').width() + 100
     })
 
   };
