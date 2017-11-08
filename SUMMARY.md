@@ -20,4 +20,5 @@
   * [编辑审批](ye-mian-pai-cha-lie-biao/bian-ji-shen-pi.md)
 * [通用问题说明](tong-yong-wen-ti-shuo-ming.md)
 * [添加表格固定首列](tian-jia-biao-ge-gu-ding-shou-lie.md)
+* [添加订单详情MFG表格](tian-jia-ding-dan-xiang-qing-mfg-biao-ge.md)
 
