@@ -21,4 +21,5 @@
 * [通用问题说明](tong-yong-wen-ti-shuo-ming.md)
 * [添加表格固定首列](tian-jia-biao-ge-gu-ding-shou-lie.md)
 * [添加订单详情MFG表格](tian-jia-ding-dan-xiang-qing-mfg-biao-ge.md)
+* [添加订单详情下载弹框](tian-jia-ding-dan-xiang-qing-xia-zai-dan-kuang.md)
 
