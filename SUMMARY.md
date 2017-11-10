@@ -22,4 +22,5 @@
 * [添加表格固定首列](tian-jia-biao-ge-gu-ding-shou-lie.md)
 * [添加订单详情MFG表格](tian-jia-ding-dan-xiang-qing-mfg-biao-ge.md)
 * [添加订单详情下载弹框](tian-jia-ding-dan-xiang-qing-xia-zai-dan-kuang.md)
+* [修改警告消息滚动底部固定](xiu-gai-jing-gao-xiao-xi-gun-dong-di-bu-gu-ding.md)
 
