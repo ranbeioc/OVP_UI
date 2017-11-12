@@ -14,7 +14,7 @@ if( $(document).height() ==  $(window).height() ){
 
 API Doc：[https://www.jstree.com/](https://www.jstree.com/)
 
-Gothub：https://github.com/vakata/jstree
+Gothub：[https://github.com/vakata/jstree](https://github.com/vakata/jstree)
 
 ```
 1，页面头部引用样式文件：
@@ -46,7 +46,7 @@ Gothub：https://github.com/vakata/jstree
 
 5，页脚加入配置代码：
  $(function () {
-    
+
     $('#treeview').jstree({
       'core' : {
         "check_callback" : true,
@@ -238,5 +238,5 @@ $(function() {
 </script>
 ```
 
-编辑于 2017-11-13 00:45:51
+编辑于 2017-11-13 02:59:46
 
