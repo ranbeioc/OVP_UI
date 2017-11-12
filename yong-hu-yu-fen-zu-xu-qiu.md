@@ -2,6 +2,14 @@
 
 本内容是根据 2017-11-10 要求依次列出的，具体参见分条描述：
 
+```
+1，添加用户分组页示例参照：Dev/usermanage/usergroup.html
+
+2，编辑用户分组管理页示例参照：Dev/usermanage/usergrouplist.html
+
+3，分布创建用户页示例参照：Dev/usermanage/internaluseradd2.html 第二项 PART2-Group Information
+```
+
 ### 1，底部系统通知条在页面无滚动时宽度的修改：
 
 ```
@@ -238,5 +246,5 @@ $(function() {
 </script>
 ```
 
-编辑于 2017-11-13 02:59:46
+编辑于 2017-11-13 03:05:40
 

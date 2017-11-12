@@ -23,5 +23,5 @@
 * [添加订单详情MFG表格](tian-jia-ding-dan-xiang-qing-mfg-biao-ge.md)
 * [添加订单详情下载弹框](tian-jia-ding-dan-xiang-qing-xia-zai-dan-kuang.md)
 * [修改警告消息滚动底部固定](xiu-gai-jing-gao-xiao-xi-gun-dong-di-bu-gu-ding.md)
-* [用户与分组需求](yong-hu-yu-fen-zu-xu-qiu.md)
+* [用户与分组等需求](yong-hu-yu-fen-zu-xu-qiu.md)
 
