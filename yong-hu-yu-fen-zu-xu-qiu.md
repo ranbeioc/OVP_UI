@@ -5,16 +5,48 @@
 ### 1，底部系统通知条在页面无滚动时宽度的修改：
 
 ```
-
 if( $(document).height() ==  $(window).height() ){
   $('#breakingnews1').parent().css({'margin-bottom':'3px', 'left':$('.main-footer .container').offset().left + $('.main-footer span:last').width() + 30, 'width':$('.main-footer .container').width() - 500});
 }
-
 ```
 
-### 2，用户分组推荐控件 jsTree 使用 Ajax 示例如下：
+### 2，用户分组推荐控件配置说明：
 
-Demo：http://jsfiddle.net/vakata/2kwkh2uL/4480/
+```
+1，页面头部引用样式文件：
+<link rel="stylesheet" href="..//plugins/jstree/themes/default/style.min.css" />
+
+2，页面尾部引用脚本文件：
+<script src="../plugins/jstree/jstree.min.js"></script>
+
+3，全局样式文件 ovp.css 添加样式：
+.treeviews{
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid #f1f1f1;
+}
+
+4，页面加入控件DOM结构：
+<div class="input-group input-group-sm" style="padding-bottom:5px;">
+  <input id="plugins4_q" type="text" class="form-control" placeholder="User's group name">
+      <span class="input-group-btn" >
+        <button type="button" class="btn btn-default btn-flat">Search</button>
+      </span>
+</div>
+
+<div id="treeview" class="treeviews"></div>
+
+<div class="input-group input-group-sm" style="padding-top:5px;">
+  <button type="text" class="btn btn-default btn-sm" onclick="demo_create()">Add</button>
+  <button type="text" class="btn btn-default btn-sm" onclick="demo_delete()">Delete</button>
+</div>
+```
+
+### 3，用户分组推荐控件 jsTree 使用 Ajax 示例如下：
+
+API Doc：https://www.jstree.com/
+
+Demo：[http://jsfiddle.net/vakata/2kwkh2uL/4480/](http://jsfiddle.net/vakata/2kwkh2uL/4480/)
 
 ```
 Populating the tree using AJAX
@@ -57,9 +89,9 @@ The ids in the server response make it possible to identify nodes later (which w
 WHEN USING IDS MAKE SURE THEY ARE UNIQUE INSIDE A PARTICULAR TREE
 ```
 
-3，用户分组使用JSON数据配置说明如下：
+### 4，用户分组使用JSON数据配置说明如下：
 
-DEMO：http://jsfiddle.net/vakata/2kwkh2uL/4479/
+DEMO：[http://jsfiddle.net/vakata/2kwkh2uL/4479/](http://jsfiddle.net/vakata/2kwkh2uL/4479/)
 
 ```
 The data you use must be in a specific format, each branch of the tree is represented by an object, which must at least have a text key. The children key can be used to add children to the branch, it should be an array of objects.
@@ -107,10 +139,7 @@ $(function() {
   });
 });
 </script>
-
 ```
-
-
 
 编辑于 2017-11-13 00:45:51
 
