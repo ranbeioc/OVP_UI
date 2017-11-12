@@ -45,7 +45,7 @@ Gothub：[https://github.com/vakata/jstree](https://github.com/vakata/jstree)
       </span>
 </div>
 
-<div id="treeview" class="treeviews"></div>
+<div id="treeview2" class="treeviews" style="height:300px;"> </div>
 
 <div class="input-group input-group-sm" style="padding-top:5px;">
   <button type="text" class="btn btn-default btn-sm" onclick="demo_create()">Add</button>
