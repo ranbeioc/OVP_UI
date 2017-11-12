@@ -10,7 +10,11 @@ if( $(document).height() ==  $(window).height() ){
 }
 ```
 
-### 2，用户分组推荐控件配置说明：
+### 2，用户分组推荐控件配置说明（配置代码为示例）：
+
+API Doc：[https://www.jstree.com/](https://www.jstree.com/)
+
+Gothub：https://github.com/vakata/jstree
 
 ```
 1，页面头部引用样式文件：
@@ -21,12 +25,11 @@ if( $(document).height() ==  $(window).height() ){
 
 3，全局样式文件 ovp.css 添加样式：
 .treeviews{
-    height: 300px;
     overflow: scroll;
     border: 1px solid #f1f1f1;
 }
 
-4，页面加入控件DOM结构：
+4，页面加入控件DOM结构：点击事件为示例
 <div class="input-group input-group-sm" style="padding-bottom:5px;">
   <input id="plugins4_q" type="text" class="form-control" placeholder="User's group name">
       <span class="input-group-btn" >
@@ -40,11 +43,105 @@ if( $(document).height() ==  $(window).height() ){
   <button type="text" class="btn btn-default btn-sm" onclick="demo_create()">Add</button>
   <button type="text" class="btn btn-default btn-sm" onclick="demo_delete()">Delete</button>
 </div>
+
+5，页脚加入配置代码：
+ $(function () {
+    
+    $('#treeview').jstree({
+      'core' : {
+        "check_callback" : true,
+        'data' : [
+            {
+                "text" : "User Groups",
+                "state" : {"opened" : true },
+                "children" : [
+                    {
+                      "text" : "Child Group 1"
+                      //"state" : { "selected" : true },
+                      //"icon" : "glyphicon glyphicon-flash"
+                    },
+                    { 
+                      "text" : "Child Group 2"
+                      //"state" : { "disabled" : true }
+                    },
+                    { 
+                      "text" : "Child Group 3"
+                    },
+                    { 
+                      "text" : "Child Group 4"
+                    },
+                    { 
+                      "text" : "Child Group 5"
+                    },
+                    { 
+                      "text" : "Child Group 6"
+                    },
+                    { 
+                      "text" : "Child Group 7"
+                    },
+                    { 
+                      "text" : "Child Group 8"
+                    },
+                    { 
+                      "text" : "Child Group 9"
+                    },
+                    { 
+                      "text" : "Child Group 10"
+                    },
+                    { 
+                      "text" : "Child Group 11"
+                    },
+                    { 
+                      "text" : "Child Group 12"
+                    }
+                ]
+          }
+        ]
+      },
+      "plugins" : [
+         "search", "wholerow", "dnd", "state", "types" //,"checkbox"
+      ]
+    });
+
+
+    var to = false;
+    $('#plugins4_q').keyup(function () {
+      if(to) { clearTimeout(to); }
+      to = setTimeout(function () {
+        var v = $('#plugins4_q').val();
+        $('#treeview').jstree(true).search(v);
+      }, 250);
+    });
+
+  });
+
+
+  function demo_create() {
+          var ref = $('#treeview').jstree(true),
+            sel = ref.get_selected();
+          if(!sel.length) { return false; }
+          sel = sel[0];
+          sel = ref.create_node(sel, {"type":"file"});
+          if(sel) {
+            ref.edit(sel);
+          }
+        };
+        function demo_rename() {
+          var ref = $('#treeview').jstree(true),
+            sel = ref.get_selected();
+          if(!sel.length) { return false; }
+          sel = sel[0];
+          ref.edit(sel);
+        };
+        function demo_delete() {
+          var ref = $('#treeview').jstree(true),
+            sel = ref.get_selected();
+          if(!sel.length) { return false; }
+          ref.delete_node(sel);
+        };
 ```
 
 ### 3，用户分组推荐控件 jsTree 使用 Ajax 示例如下：
-
-API Doc：https://www.jstree.com/
 
 Demo：[http://jsfiddle.net/vakata/2kwkh2uL/4480/](http://jsfiddle.net/vakata/2kwkh2uL/4480/)
 
