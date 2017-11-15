@@ -6,6 +6,7 @@
 * [更新全局样式表](geng-xin-quan-ju-yang-shi-biao.md)
 * [页面排查列表](ye-mian-pai-cha-lie-biao.md)
   * [系统通知条](ye-mian-pai-cha-lie-biao/xi-tong-tong-zhi-tiao.md)
+    * [新版系统通知修改](ye-mian-pai-cha-lie-biao/xi-tong-tong-zhi-tiao/xin-ban-xi-tong-tong-zhi-xiu-gai.md)
   * [B2B-登录](ye-mian-pai-cha-lie-biao/b2bdeng-lu.md)
   * [B2C-登录](ye-mian-pai-cha-lie-biao/b2cdeng-lu.md)
   * [忘记密码](ye-mian-pai-cha-lie-biao/wang-ji-mi-ma.md)
