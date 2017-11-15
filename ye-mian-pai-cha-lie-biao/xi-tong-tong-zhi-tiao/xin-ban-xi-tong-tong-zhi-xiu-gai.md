@@ -4,9 +4,10 @@
 
 1，修改全局样式表 ovp.css 文件：
 
-注意以下样式类中UAT特别配置的 height：42px 等数值需要依据UAT实际效果修改
+注意以下样式类中UAT特别配置的 height：40px 等数值需要全部删除
 
 ```
+删除 min-width:450px
 .calloutfixedtop{
   position: absolute;
   top: 9px;
@@ -27,11 +28,11 @@
 2，修改全局脚本 ovp.js 文件：
 
 ```
-A，修改 $(window).scroll 函数内
+A，修改 $(window).scroll 函数内 'margin-bottom':'8px'
 
 $('#breakingnews1').parent().css({'margin-bottom':'8px', 'left':$('.main-footer .container').offset().left + $('.main-footer span:last').width() + 30, 'width':$('.main-footer .container').width() - 500});
 
-B，修改 setTltBtm() 函数内
+B，修改 setTltBtm() 函数内 'margin-bottom':'8px'
 
 if( $(document).height() ==  $(window).height() ){
   $('#breakingnews1').parent().css({'margin-bottom':'8px', 'left':$('.main-footer .container').offset().left + $('.main-footer span:last').width() + 30, 'width':$('.main-footer .container').width() - 500});
