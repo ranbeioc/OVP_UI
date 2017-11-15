@@ -11,7 +11,6 @@
   position: absolute;
   top: 9px;
   left:350px;
-  min-width: 450px;
   z-index: 99999;
 }
 
@@ -22,8 +21,7 @@
 
 .BreakingNewsController ul li{padding:3px 10px; overflow:hidden;}
 
-.BreakingNewsController ul li a{ text-align: center; width:90%;text-decoration:none; color:#333; display:inline-block; padding:2px 0; font-family: sans-serif,'Helvetica Neue',Helvetica; font-weight: 500; font-style: italic; font-size: 14px;} 
-
+.BreakingNewsController ul li a{ text-align: center; width:90%;text-decoration:none; color:#333; display:inline-block; padding:2px 0; font-family: sans-serif,'Helvetica Neue',Helvetica; font-weight: 500; font-style: italic; font-size: 14px;}
 ```
 
 2，修改全局脚本 ovp.js 文件：
