@@ -26,4 +26,5 @@
 * [修改警告消息滚动底部固定](xiu-gai-jing-gao-xiao-xi-gun-dong-di-bu-gu-ding.md)
 * [用户与分组等需求](yong-hu-yu-fen-zu-xu-qiu.md)
 * [表格顶部按钮](biao-ge-ding-bu-an-niu.md)
+* [客户报表配置底色](ke-hu-bao-biao-pei-zhi-di-se.md)
 
