@@ -21,10 +21,11 @@
   * [编辑审批](ye-mian-pai-cha-lie-biao/bian-ji-shen-pi.md)
 * [通用问题说明](tong-yong-wen-ti-shuo-ming.md)
 * [添加表格固定首列](tian-jia-biao-ge-gu-ding-shou-lie.md)
+* [添加表格行或列拖动](tian-jia-biao-ge-xing-huo-lie-tuo-dong.md)
 * [添加订单详情MFG表格](tian-jia-ding-dan-xiang-qing-mfg-biao-ge.md)
 * [添加订单详情下载弹框](tian-jia-ding-dan-xiang-qing-xia-zai-dan-kuang.md)
 * [修改警告消息滚动底部固定](xiu-gai-jing-gao-xiao-xi-gun-dong-di-bu-gu-ding.md)
 * [用户与分组等需求](yong-hu-yu-fen-zu-xu-qiu.md)
 * [表格顶部按钮](biao-ge-ding-bu-an-niu.md)
-* [客户报表配置底色](ke-hu-bao-biao-pei-zhi-di-se.md)
+* 添加表格行或列拖动
 
