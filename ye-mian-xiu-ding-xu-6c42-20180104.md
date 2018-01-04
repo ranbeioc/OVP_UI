@@ -2,12 +2,10 @@
 
 2018-01-04 17:52:38
 
-
-
 1，在全局样式OVP.CSS文件修改如下：
 
 ```
-删除 .calloutfixedtop  内的  min-width: 450px; 
+删除 .calloutfixedtop  内的  min-width: 450px;
 ```
 
 ```
@@ -48,5 +46,31 @@
 </button>
 ```
 
-最后编辑于 2018-01-04 18:01:08
+3，登录页面错误提示修改：
+
+```
+添加如下结构：<p class="login-box-msg" style="color:red" id="msg">Please input your email address.</p>
+
+原结构示例：
+   <div class="login-box-body ">
+
+    <p class="login-box-msg" style="color:red" id="msg">Please input your email address.</p>
+
+    <form action="#" method="post">
+    
+在全局 OVP.CSS 添加如下样式类：
+.login-box-msg,
+.register-box-msg{
+    padding: 5px;
+    margin: 0 0 10px 0;
+    background-color: #ff000017;
+}
+.login-box-body {
+    padding-top: 10px;
+}
+```
+
+
+
+最后编辑于 2018-01-04 18:53:11
 
