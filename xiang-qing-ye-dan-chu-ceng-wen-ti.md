@@ -1,4 +1,4 @@
-# 详情页弹出层问题修正
+# 详情页弹出层问题修正 补充2
 
 2018-02-28 01:12:54
 
@@ -7,7 +7,7 @@
 ```
 .popover {
     max-width: 400px;
-    max-height: 200px;
+    max-height: 250px;
     overflow-y: auto;
 }
 ```
@@ -17,32 +17,21 @@
 ```
   $('[data-toggle="popover"]').popover({
         html: true,
-        trigger: 'click',
+        trigger: 'manual',
         placement: function (context, source) {
-            var position = $(source).position();
-
-            if (position.left > 515) {
-                return "left";
-            }
-
-            if (position.left < 515) {
-                return "right";
-            }
-
-            if (position.top < 110){
-                return "bottom";
-            }
             return "top";
         }
-
+  });
+  $('[data-toggle="popover"]').on("click", function(){
+    $('[data-toggle="popover"]').popover("toggle");
   });
 ```
 
-3，滚动隐藏浮层为前期需求，可将 ovp.js 其 $\(window\).scroll\(\) 中清除如下代码即可：
+3，滚动隐藏浮层为前期需求，位于 ovp.js 的 $\(window\).scroll\(\) 函数中：
 
 ```
  $('[data-toggle="popover"]').popover("hide");
 ```
 
-最后编辑于 2018-02-28 01:18:58
+最后编辑于 2018-03-01 18:02:25
 
