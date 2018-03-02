@@ -81,7 +81,7 @@ data-content="MM110093  MM110093  MM110093 MM110093  MM110093  MM110093 MM110093
 
 $\(function\(\) {
 
-~~        $\("\[data-toggle='popover'\]"\).popover\(\);~~
+//        $\("\[data-toggle='popover'\]"\).popover\(\); 
 
 }\);
 
