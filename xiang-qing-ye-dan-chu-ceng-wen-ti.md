@@ -40,7 +40,7 @@
 
 ~~  }\);~~
 
-~~  $\('\[data-toggle="popover"\]'\).on\("click", function\(\){~~
+~~ $\('\[data-toggle="popover"\]'\).on\("click", function\(\){~~
 
 ~~    $\('\[data-toggle="popover"\]'\).popover\("toggle"\);~~
 
@@ -56,13 +56,13 @@
 
 4，在订单详情页内按钮增加4项参数如下：
 
-data-placement="top" 
+data-placement="top"
 
-data-trigger="click" 
+data-trigger="click"
 
-data-html="true" 
+data-html="true"
 
-title="Serial Number&lt;a class='close mpop' aria-label=Close&gt;&lt;span aria-hidden=true&gt;&times;&lt;/span&gt;&lt;/a&gt;" 
+title="Serial Number&lt;a class='close mpop' aria-label=Close&gt;&lt;span aria-hidden=true&gt;×&lt;/span&gt;&lt;/a&gt;"
 
 ```
 <button type="button" class="btn btn-default btn-xs" 
@@ -79,11 +79,11 @@ data-content="MM110093  MM110093  MM110093 MM110093  MM110093  MM110093 MM110093
 
 &lt;script&gt;
 
-    $\(function\(\) {
+$\(function\(\) {
 
 ~~        $\("\[data-toggle='popover'\]"\).popover\(\);~~
 
-    }\);
+}\);
 
 &lt;/script&gt;
 
