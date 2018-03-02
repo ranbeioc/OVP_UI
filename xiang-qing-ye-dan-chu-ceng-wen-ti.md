@@ -4,7 +4,7 @@
 
 1，在 ovp.css 中修改样式如下：
 
-~~.popover {~~
+.popover {
 
 ~~    max-width: 400px;~~
 
@@ -12,7 +12,7 @@
 
 ~~    overflow-y: auto;~~
 
-~~}~~
+}
 
 ```
 .popover {
@@ -81,7 +81,7 @@ data-content="MM110093  MM110093  MM110093 MM110093  MM110093  MM110093 MM110093
 
 $\(function\(\) {
 
-//        $\("\[data-toggle='popover'\]"\).popover\(\); 
+~~       $\("\[data-toggle='popover'\]"\).popover\(\);~~
 
 }\);
 
